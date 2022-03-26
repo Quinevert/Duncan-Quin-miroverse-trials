@@ -11,12 +11,20 @@ body{
   align-items: center;
   width: 40%;
   background-color: rgb(204, 228, 231);
-  padding: 20px;
+  padding: 0px 20px;
   border-radius: 10px;
+  height: 100vh;
 }
-input{
+input,select{
   border-radius: 5px;
   border: 2px solid white;
   padding: 10px;
-  width: 500px;
+  width: 400px;
+}
+select{
+  width: 400px;
+}
+#survey-form{
+  display: flex;
+  flex-direction: column;
 }

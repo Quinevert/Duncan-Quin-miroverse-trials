@@ -12,10 +12,18 @@
       <h1 id="title">Poetry survey form</h1>
       <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi mollitia obcaecati error eveniet praesentium explicabo. Odit esse, reiciendis culpa eligendi voluptate explicabo illo tempore at placeat autem exercitationem ad sequi odio ullam quam tempora optio voluptas adipisci atque eveniet amet.</p>
     <form action="" id="survey-form">
-      <p>Name</p>
+      <label id="name-label">Name</label>
       <input type="text" id="name" name="name" required placeholder="Enter your name here">
+      <label id="email-label">Email</label>
       <input type="email" id="email" name="email" required placeholder="Enter your Email here">
-      <input type="number" pattern="[0-9]"id="number" name="number"required placeholder="Enter number here">
+      <label id="number-label">Number</label>
+      <input max="2000" min="30" type="number" pattern="[0-9]"id="number" name="number"required placeholder="Enter number here">
+      <label id="peotry-type">Select poetry type</label>
+      <select  id="dropdown">
+        <option value="culture">culture</option>
+        <option value="native">native</option>
+        <option value="prose">prose</option>
+      </select>
     </form>
 
     </div>
