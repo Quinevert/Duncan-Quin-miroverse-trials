@@ -1,6 +1,7 @@
 body{
   background-color: pink;
   display: flex;
+  background-image: url('./images/bg.JPG');
 }
 .container{
   display: flex;
@@ -12,4 +13,10 @@ body{
   background-color: rgb(204, 228, 231);
   padding: 20px;
   border-radius: 10px;
+}
+input{
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 10px;
+  width: 500px;
 }
