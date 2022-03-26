@@ -1,0 +1,15 @@
+body{
+  background-color: pink;
+  display: flex;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: rgb(204, 228, 231);
+  padding: 20px;
+  border-radius: 10px;
+}
